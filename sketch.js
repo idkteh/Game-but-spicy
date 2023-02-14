@@ -61,7 +61,7 @@ class Bubble{                                    // declaring the class called B
     
     score_c = 0;                              // we changed the colour of the text so that it blends with background as well           
     button = createButton('Restart');          
-    button.position(170,240);                 // these lines create button called 'Restart', they set its position and when the button is pressed,they call the function that resets the whole game
+    button.position(170,320);                 // these lines create button called 'Restart', they set its position and when the button is pressed,they call the function that resets the whole game
     button.mousePressed(resetSketch);
       }
   }
